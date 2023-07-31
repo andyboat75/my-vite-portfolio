@@ -1,0 +1,4 @@
+{
+  "plugins": ["vitest"],
+  "extends": ["plugin:vitest/all"]
+}

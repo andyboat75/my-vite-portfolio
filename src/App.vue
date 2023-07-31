@@ -1,8 +1,12 @@
 <script setup lang="ts">
+import CyHeader from "./template/CyHeader.vue"
+import CyFooter from "./template/CyFooter.vue"
 </script>
 
 <template>
-  Hello
+  <CyHeader />
+  <slot />
+  <CyFooter />
 </template>
 
 <style scoped>

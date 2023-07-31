@@ -14,7 +14,7 @@ export default defineConfig(({command, mode}) =>{
     }
   }else{
     return {
-      base: '',
+      base: '/my-vite-portfolio/',
       plugins: [vue()]
     }
   }
