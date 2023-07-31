@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 
+@layer base{
+  @font-face {
+    font-family: Audiowide;
+    src: url("./assets/fonts/Audiowide-Regular.ttf") format('truetype');
+}
 
-
+@font-face {
+    font-family: Poppins;
+    src: url("./assets/fonts/Poppins-Regular.ttf") format('truetype');
+}
+  body {
+    @apply bg-gray-100 dark:bg-gray-950 text-black dark:text-white text-base font-Poppins
+  }
+}

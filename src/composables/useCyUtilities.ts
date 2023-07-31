@@ -11,3 +11,10 @@ export const useUniqueID = (inp_txt: string) => {
 
   return id;
 };
+/**
+ * 
+ * @param classes list of strings
+ */
+export function classNames (...classes: any[string]) {
+  return classes.filter(Boolean).join(' ')
+}
