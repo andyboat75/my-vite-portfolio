@@ -20,17 +20,17 @@ const menuItems = [
   {
     label: 'Home',
     icon: "heroicons:home-20-solid",
-    to: "/"
+    to: "./"
   },
   {
     label: 'Cybersecurity',
     icon: "",
-    to: "/cybersecurity"
+    to: "./cybersecurity"
   },
   {
     label: 'Web Dev',
     icon: "",
-    to: "website-dev"
+    to: "./website-dev"
   }
 ] as IHeaderMenuItem[]
 
