@@ -1,5 +1,4 @@
 import { ref } from "vue"
-import defaultColors from "tailwindcss/colors"
 
 // Data
 
@@ -1050,12 +1049,12 @@ const notifications = {
   container: 'px-4 sm:px-6 py-6 space-y-3 overflow-y-auto'
 }
 
-const color = {
-  ... defaultColors
-}
+// const color = {
+//   ... defaultColors
+// }
 
 export const ui = ref({
-  color,
+  // color,
   table,
   avatar,
   avatarGroup,

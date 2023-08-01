@@ -6,3 +6,10 @@ export interface IHeaderMenuItem{
 }
 
 export type Dict = { [key: string]: any };
+
+export interface TabItem {
+  label: string
+  slot?: string
+  disabled?: boolean
+  content?: string
+}
