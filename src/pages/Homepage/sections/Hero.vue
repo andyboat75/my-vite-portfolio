@@ -9,7 +9,7 @@ import CyButton from '../../../components/CyButton.vue';
         <span class=" space-y-4">
           <h1 class="text-5xl xl:text-6xl">Hello, I'm Andrews,</h1>
           <h2 class="text-3xl xl:text-4xl">
-            Cybersecurity enthusiast & <br /> Web developer
+            Cybersecurity Professional & <br /> Web developer
           </h2>
         </span>
         <p class="lg:w-10/12">I love what I do and enjoy solving your problems.</p>
